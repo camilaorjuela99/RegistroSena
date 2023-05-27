@@ -9,16 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../css/estilopag.css" rel="stylesheet" type="text/css"/>
     </head>
     <body> 
         
-        <h1>Hello World!</h1>
+        <h1 align="center">Seleccione un Programa</h1>
     </body> 
+    <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
       <h1 align="center">REGISTRO PROGRAMA</h1> 
         <div class="container"></div> 
         <div class="col-lg-6"></div>  
         <form action="../ControladorPrograma">
-        codigo del programa:<br>
+        Codigo del programa:<br>
              
         <input class="form-control" type="number" name="txtcodpro"><br>  
         Nombre del programa:<br>

@@ -27,7 +27,7 @@
                 <form action="ControladorAprendiz">
                     
                  <label for="id">id</label>
-                 <input type="number" id="id" name="txtid" value="<%=ap.getId()%>"> 
+                
                  
                     <br>
                     
@@ -52,6 +52,8 @@
                 
                 <label for="telefono">Digite su numero de telefono</label>
                 <input type="number" id="Numcontacto" name="txtcon" value="<%=ap.getNumcontacto()%>"> 
+                
+                 <input type="number" id="id" name="txtid" value="<%=ap.getId()%>"> 
                 
                 <input class="btn-btn-primary" type="submit" name="accion" value="EditarA">
 

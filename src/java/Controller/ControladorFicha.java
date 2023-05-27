@@ -19,11 +19,11 @@ import modeldao.FichaDao;
  *
  * @author APRENDIZ
  */
-@WebServlet(name = "ControladorFicha", urlPatterns = {"/ControladorFicha"})
+@WebServlet(name = "ControladorFicha", urlPatterns = {"ControladorFicha"})
 public class ControladorFicha extends HttpServlet {
     
-    String fichaagregar = "view/Fficha.jsp";
-    String fichalistar = "view/ListarFi.jsp";
+    String fichaagregar = "view/Funcionficha.jsp";
+    String fichalistar = "view/ListarlaFicha.jsp";
     
     Ficha fi = new Ficha();
     FichaDao fidao = new FichaDao();
@@ -70,10 +70,10 @@ public class ControladorFicha extends HttpServlet {
         if(action.equalsIgnoreCase("fichalistar"))
         {
             acceso=fichalistar;
-        }else if(action.equalsIgnoreCase("afichaagregar"))
+        }else if(action.equalsIgnoreCase("fichaagregar"))
         {
          acceso = fichaagregar;
-        }else if(action.equalsIgnoreCase("AgreFicha"))
+        }else if(action.equalsIgnoreCase("AgregarFicha"))
         {
             int codfi = Integer.parseInt(request.getParameter("txtcoficha"));
             int numeapre = Integer.parseInt(request.getParameter("txtnumaprendiz"));

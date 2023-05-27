@@ -26,7 +26,7 @@ public class ControladorAprendiz extends HttpServlet {
     String editar ="view/EditarA.jsp";
      String agregar ="view/AgregarA.jsp";
       String listar ="view/ListarA.jsp"; 
-      String edit ="view/edit.jsp";
+     
       Aprendiz p=new Aprendiz();
       AprendizDao dao = new AprendizDao();
       int id; 

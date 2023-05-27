@@ -16,13 +16,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+           <link href="../css/estilopag.css" rel="stylesheet" type="text/css"/>
         <title>Registro Ficha</title>
     </head>
     <body>
-        <h1>Ingrese Ficha</h1>
+     
+        <h1 align="center">Ingrese Ficha</h1>
         <div class="container">    
             <div class col-lg-6">
-                <form action="../ControladorFicha">
+                <form action="ControladorFicha">
                     
                  <label for="coficha">codigo ficha</label>
                  <input type="number" id="coficha" name="txtcoficha"> 
@@ -66,7 +68,7 @@
 
 
                 
-                <input class="btn-btn-primary" type="submit" name="accion" value="AgreFicha">
+                <input class="btn-btn-primary" type="submit" name="accion" value="AgregarFicha">
 
                 
 

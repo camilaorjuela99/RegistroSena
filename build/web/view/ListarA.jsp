@@ -19,6 +19,7 @@
     </head>
     <body>
         <div class="container">
+            <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
         <h1>APRENDICES REGISTRADOS</h1>
         <table>
             <thead>
